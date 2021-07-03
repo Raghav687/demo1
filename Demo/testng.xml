@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Justdialdemo" thread-count="1" verbose="1" parallel="tests">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="demo1.login"/>
+      <class name="demo3.gym"/>
+      <class name="demo2.freelisting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

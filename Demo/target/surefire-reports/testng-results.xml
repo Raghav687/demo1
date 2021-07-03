@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-03T09:21:22Z" name="Justdialdemo" finished-at="2021-07-03T09:21:50Z" duration-ms="27159">
+    <groups>
+    </groups>
+    <test started-at="2021-07-03T09:21:22Z" name="Test" finished-at="2021-07-03T09:21:50Z" duration-ms="27159">
+      <class name="demo1.login">
+        <test-method signature="openSite()[pri:0, instance:demo1.login@600b9d27]" started-at="2021-07-03T09:21:22Z" name="openSite" finished-at="2021-07-03T09:21:25Z" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="searchTextboxAndRemoveAd()[pri:1, instance:demo1.login@600b9d27]" started-at="2021-07-03T09:21:31Z" name="searchTextboxAndRemoveAd" finished-at="2021-07-03T09:21:33Z" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTextboxAndRemoveAd -->
+        <test-method signature="findBestDeal()[pri:2, instance:demo1.login@600b9d27]" started-at="2021-07-03T09:21:35Z" name="findBestDeal" finished-at="2021-07-03T09:21:36Z" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBestDeal -->
+        <test-method signature="closeDriver()[pri:3, instance:demo1.login@600b9d27]" started-at="2021-07-03T09:21:41Z" name="closeDriver" finished-at="2021-07-03T09:21:45Z" duration-ms="4132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- demo1.login -->
+      <class name="demo3.gym">
+        <test-method signature="openSite()[pri:0, instance:demo3.gym@3688eb5b]" started-at="2021-07-03T09:21:25Z" name="openSite" finished-at="2021-07-03T09:21:28Z" duration-ms="2659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="selectFitnessOption()[pri:1, instance:demo3.gym@3688eb5b]" started-at="2021-07-03T09:21:33Z" name="selectFitnessOption" finished-at="2021-07-03T09:21:34Z" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFitnessOption -->
+        <test-method signature="selectGymOption()[pri:2, instance:demo3.gym@3688eb5b]" started-at="2021-07-03T09:21:36Z" name="selectGymOption" finished-at="2021-07-03T09:21:37Z" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGymOption -->
+        <test-method signature="printAllOptions()[pri:3, instance:demo3.gym@3688eb5b]" started-at="2021-07-03T09:21:45Z" name="printAllOptions" finished-at="2021-07-03T09:21:45Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllOptions -->
+        <test-method signature="Closebrowser()[pri:4, instance:demo3.gym@3688eb5b]" started-at="2021-07-03T09:21:45Z" name="Closebrowser" finished-at="2021-07-03T09:21:50Z" duration-ms="4121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- demo3.gym -->
+      <class name="demo2.freelisting">
+        <test-method signature="openSite()[pri:0, instance:demo2.freelisting@69f1a286]" started-at="2021-07-03T09:21:28Z" name="openSite" finished-at="2021-07-03T09:21:31Z" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSite -->
+        <test-method signature="openFreeListing()[pri:1, instance:demo2.freelisting@69f1a286]" started-at="2021-07-03T09:21:34Z" name="openFreeListing" finished-at="2021-07-03T09:21:35Z" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFreeListing -->
+        <test-method signature="closeDriver()[pri:2, instance:demo2.freelisting@69f1a286]" started-at="2021-07-03T09:21:37Z" name="closeDriver" finished-at="2021-07-03T09:21:41Z" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- demo2.freelisting -->
+    </test> <!-- Test -->
+  </suite> <!-- Justdialdemo -->
+</testng-results>

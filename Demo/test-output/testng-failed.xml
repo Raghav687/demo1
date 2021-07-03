@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Justdialdemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="demo1.login">
+        <methods>
+          <include name="searchTextboxAndRemoveAd"/>
+        </methods>
+      </class> <!-- demo1.login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Justdialdemo] -->
